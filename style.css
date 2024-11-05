@@ -1,0 +1,28 @@
+table{
+  float: left;
+  background-color: #dddddd;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+tr{
+  height: 200px;
+}
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  width: 200px;
+}
+html{
+  background-color:brown;
+}
+td[data-pun="true"]{
+  background-color: rgb(43, 119, 119);
+}
+td[data-pun="false"]{
+  background-color: #dddddd;
+}
+button{
+  margin-top: 30px;
+  margin-left: 390px;
+}
